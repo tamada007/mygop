@@ -1,0 +1,26 @@
+{
+	//"TLSVersion": "TLSv1.2",
+	"TLSVersion": "TLSv1.1",
+	"RootCA": {
+		"Name": "GoProxy",
+		"Dirname": "cache",
+		"Duration": 31536000,
+		//"Portable": true,
+		"Portable": false,
+	},
+	"Ports": [
+		443,
+		7443,
+		8443,
+		9443,
+		10443,
+		20443,
+	],
+	"Ignores": [
+		"direct",
+		"vps",
+	],
+	"Sites": [
+		"*"
+	]
+}

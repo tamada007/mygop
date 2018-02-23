@@ -1,0 +1,28 @@
+{
+	"Servers": [
+		{
+			//"URL": "https://example.com/",
+			"URL": "http://hopeyou-hopeme.a3c1.starter-us-west-1.openshiftapps.com/",
+			"Password": "wfgf",
+			"SSLVerify": true,
+			"Host": "",
+		}
+	],
+	"Transport": {
+		"Dialer": {
+			"Timeout": 10,
+			"KeepAlive": 180,
+			"DualStack": false,
+			"DNSCacheExpiry": 3600,
+			"DNSCacheSize": 8192
+		},
+		"Proxy": {
+			"Enabled": false,
+			"URL": "http://127.0.0.1:8087",
+		},
+		"DisableKeepAlives": false,
+		"DisableCompression": false,
+		"TLSHandshakeTimeout": 4,
+		"MaxIdleConnsPerHost": 16
+	}
+}
